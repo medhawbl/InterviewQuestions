@@ -1,0 +1,66 @@
+import com.mongodb.*;
+import com.mongodb.MongoException;
+import com.mongodb.WriteConcern;
+import com.mongodb.DB;
+import com.mongodb.DBCollection;
+import com.mongodb.BasicDBObject;
+import com.mongodb.DBObject;
+import com.mongodb.DBCursor;
+import com.mongodb.ServerAddress;
+import java.util.*;
+
+import groovy.json.JsonSlurper;
+import org.json.JSONArray;
+import org.json.JSONObject;
+import org.json.JSONException;
+
+
+def slurper = new JsonSlurper()
+def request = context.expand( '${REST Test Request#Request}' )
+def response = context.expand( '${REST Test Request#Response}' )
+def json = slurper.parseText(request)
+
+
+def json_response = slurper.parseText(response)
+String id = json.getArticleAttributesRequest.articleId[0].id;
+String locale = json.getArticleAttributesRequest.articleId[0].locale;
+String dBConnection = context.expand( '${#Project#DBConnection}')
+def port = context.expand( '${#Project#Port}' )
+char[] mypass = context.expand( '${#Project#Password}')
+def database = context.expand( '${#Project#Database}' )
+def userName = context.expand( '${#Project#UserName}' )
+Integer portNo=Integer.parseInt(port);
+
+
+Mongo mongoClient = new Mongo( dBConnection , portNo );
+DB db = mongoClient.getDB(database);
+boolean auth = db.authenticate(userName, mypass);
+DBCollection coll = db.getCollection("Article");
+
+BasicDBObject searchQuery=new BasicDBObject();
+searchQuery.put("articleId",id)
+searchQuery.put("locale",locale)
+DBCursor cursor = coll.find(searchQuery);
+BasicDBObject obj=(BasicDBObject)cursor.next();
+
+for(int i=0;i<json_response.getArticleAttributesResponse.attributes[0].keyValuePairs.size();i++)
+{
+	slurper = new JsonSlurper();
+	json_value = slurper.parseText(json_response.getArticleAttributesResponse.attributes[0].keyValuePairs[i].value);
+	
+	//Asserts for content.main.hero
+	if(json_response.getArticleAttributesResponse.attributes[0].keyValuePairs[i].key == 'content.main.hero') {
+		jdbc_hero = obj.get("content").get("main").get("hero")[0];
+		actual = json_value[0].altText;
+		expected = jdbc_hero.get("altText");
+		assert actual == expected;
+	}
+	//Asserts for content.main.thumbnail
+	if(json_response.getArticleAttributesResponse.attributes[0].keyValuePairs[i].key == 'content.main.thumbnail') {
+		jdbc_thumbnail = obj.get("content").get("main").get("thumbnail")[0];
+		actual = json_value[0].altText;
+		expected = jdbc_thumbnail.get("altText");
+	
+		assert actual == expected;
+	}
+}

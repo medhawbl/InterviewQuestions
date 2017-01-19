@@ -1,0 +1,25 @@
+automation:
+
+
+data for ecommerce - how u manage
+dynamic data- how u deal
+pageobject for common pages like navigation from page to other
+find max in given search results
+how to sort search data
+how testsuites are run thru maven and jenkins
+reports
+regression test cases- how long it takes
+deployment
+exception occurs- not properly handled- wat happens?
+how u make sure that proper code coverage is done..code reviews,wbt,bbt
+
+
+*********************************
+
+ For successful automation of any sort, it’s important to ensure that tests are isolated: 
+ that they do not share any state or affect one another. This is particularly important when writing tests that can run in parallel.
+ 
+ Due to frequent changes in the application within the sprint, we would follow an (n–1) approach to automation of our product, 
+ automating the features of the nth sprint in the next sprint, then subsequently using them for regression.
+ But due to overload of regression building up as we progressed,
+ it was crucial that each tester be able to perform and use the tools effectively, building up the test suites every sprint.

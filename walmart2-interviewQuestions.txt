@@ -16,6 +16,8 @@ Difference between whitebox and blackbox testing?
 what is regression, sanity, integration,functional testing?
 Which testcases will you pick for regression, sanity, integration,functional testing?
 
+150-200 test cases in 2-3 months
+
 He give the scenario like vudo.com(like xfinity)
 under he give the requirement  
 Under vudo.com couple of DVD's available
@@ -35,7 +37,14 @@ I locate element with id and name he asked me to there is any other way to locat
 id,name, css, x-path ....
 asked what is the difference between css and x-path which one is you prefer and why?
 
- I have dynamic element while i am trying to locate in html i will get this values (xyzxwelcome, hjghjwelcome) which on is preferable (xpath or css) if x-path why if css why? how can you write the xpath or css?(on board)
+ I have dynamic element while i am trying to locate in html i will get this values (xyzxwelcome, hjghjwelcome)
+ which on is preferable (xpath or css) if x-path why if css why? how can you write the xpath or css?(on board)
+ <a id="xyzwelcome">xyzwelcome</a>
+ //*[contains(text(),'welcome')]
+ a[id*= 'welcome']
+ 
+ xpath can traverse behind and forward
+ csss selctors can traverse forward
 
 How do you initialize the browsers in selenium?
 grid setup for crossbrowser tesing? they what to do all the test in different browsers?

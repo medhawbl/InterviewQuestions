@@ -1,7 +1,8 @@
 F2F Questions 
 WELLS FARGO:
 Question answer round!
-1)So when you did regression testing,you deployed the code..what will you do when nothing happens,the code does not execute...
+1)So when you did regression testing,you deployed the code..what will you do when nothing happens,
+the code does not execute...
 the browser is not loading...who will you approach in this case? What will your next step be?
 
 2)What did you follow..agile methodology or waterfall?

@@ -1,0 +1,80 @@
+Questions based on walmart - f2f.
+
+WebDriver and Java based:
+1.Display all drop down option values in a given select element                        
+2.find max priced element in given search                        
+3.find the max reviews restaurant in yelp.com after searching for restaurant
+4.Find the max salary from the table with td tr elements in selenium.
+5.In an ecommerce website,there is a page called general headers. In it there is a navigational bar and on it are various links are in a drop down..Use hover
+on the elements and go from link to sublink. Use page object model.
+
+API:
+6.What is backward compatibilty on API testing? What are the best practices for backward compatibilty?
+Will it work in the following scenarios?
+a)Parameters are optional.
+b)Parameters are mandatory.
+b)Converting string to an int.
+
+7. what is dependency webservices testing
+
+8. Make get req and add assertions by parsing json for below API:
+
+https://itunes.apple.com/lookup?id=909253
+
+For the same assume it has req body and do post request also with some req data.
+https://itunes.apple.com/artists - assumption post url
+
+SQL:
+8.There is a SQL table like the one in this link-
+
+http://www.programmerinterview.com/index.php/database-sql/practice-interview-question-1-continued/
+
+Find the names of the salesperson from the tables considering their id are unique.
+
+
+Java:
+9.Find the smallest number from a given array int[] arr ={-2,5,6,7,8}
+
+Reverse the string such that:
+WALMART = "LAWMTRA";
+
+
+
+10.Find the smallest number from a given array int[] arr ={-2,5,6,7,8}
+
+11.You are given an integer array containing positive numbers and one number is missing. 
+You need to provide optimum solution to find the missing number based on O(n).Sort the array.
+
+
+What is the selenium version you are using?
+
+How do you do grid set up in Selenium?
+
+How do you configure slave master in Jenkins and set it up with selenium grid?
+What are the different locators in Selenium?
+What is a static in Java?
+
+In selenium, in one page he asked to click one button, then it opens another window there we have to get the text message and again
+ we need to go back to first page and we need to paste that text into text box????(asked to write the code on white board)
+ 
+ Asked to write the restapi post request using nodejs???on white board
+ 
+ 
+6. He has given an API like api.walmart.com/ and asked to send the get request?(asked the code to write on board)
+7.after getting the response like ordered, again we need to pass the 
+Orderid into the another get request?(asked the code to write on board)
+
+Java additional:
+fibonacci
+prime
+convert decimal to binary
+parenthesis check
+string reverse
+second most repeated char in given string
+secong lenghtiest string in given array
+find missing number in array of numbers
+max number in given array
+excelUtil-testng-datadriven
+sorting-iterating the list-findmax
+rest api basic, jsonparsing, xml parsing
+basic webdriver logic
