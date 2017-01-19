@@ -1,0 +1,38 @@
+SYMANTEC INTERVIEW QUESTIONS:
+1st round-two people
+1.What was the role in your previous project?
+2.Give us an idea on what application you were working on.
+3.What was the UI framework structure like? On whiteboard.
+4.Explain what kind of framework you were using.
+5.Java structure..how does it work? Suppose we have a Class car and another class which takes the features of the car...also there are variables like engine and tires 
+which the car class has. 
+6.What kind of locators did you use?
+7.What is the difference between SOAPUI and SOAPUI pro?
+7.SQL queries:
+a)Find from the customer table the employees with the last name "bob"?
+b)There were two table-one with customer information and another with order information:
+find from the table the first name,last name and address and from the second table...all the products that were ordered before Jan 2017.
+8)Do you have any questions from us?
+
+2nd round-1 person
+1)Explain the structure in Appium...how does it work? Questions related to mobile automation-sdk,adb,ios,android
+2)Did your company have a lab for mobile testing?
+3)What do you know about Jenkins?
+4)What is property transfer in SOAPUI? When do you use it?
+5)Testng annotations and difference between testng and JUnit.
+6)Questions from resume-about protractor,angular js,ajax?
+7)what do you know about Ajax? how do you handle Ajax in page object pattern?
+8)Rest and Soap differences.
+9)Regression testing.
+10)Write a code on how you would use Testng test case in Webdriver...on whiteboard.
+11)Are you familiar with Kanban?
+
+
+3rd round Hiring Manager.
+1)How did you used Appium?
+2)Do you know why else Appium is used? Localisation in Appium.
+3)Difference between Soap and Rest.
+4)Difference between Soapui and SOAPUI pro.
+5)What methodolgy was followed in your previous company? Scrum related.
+6)What are your strengths?
+7)What questions do you have for me?

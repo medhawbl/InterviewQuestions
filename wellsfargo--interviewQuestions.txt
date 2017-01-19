@@ -1,0 +1,44 @@
+F2F Questions 
+WELLS FARGO:
+Question answer round!
+1)So when you did regression testing,you deployed the code..what will you do when nothing happens,the code does not execute...
+the browser is not loading...who will you approach in this case? What will your next step be?
+
+2)What did you follow..agile methodology or waterfall?
+
+3)If agile...then when did you begin testing?
+
+4)What did you do in your day to day activity?
+
+Coding round:
+
+Was given a laptop,which was attached to a big screen.
+I was given to do several test steps:
+
+1)Go to wellsfargo.com.
+2)Do not enter the username and password..and click go.
+//there comes a screen with error message
+then verify that error message that comes on the screen.
+verify the header of the page.
+//Abort the page if error occurs.
+3)Go back to the previous page.
+4)Go to search bar on the right hand corner of the page...enter "careers" and click.
+4)Click on the link that says "Wells Fargo Careers".
+
+I wrote till this code...not able to recollect the rest of the questions.
+
+Hiring Manager Round:
+Casual conversation about how he handled the team,what was expected from the team members.
+He said his daily activities,all about the teams under him...how strict he was when came to work
+Then he asked what do you think about it? how was the commute to the office there?
+If I had any questions to ask? and What would my question be on the first day of work?
+
+Today's my f2f wells forgo interview q?
+ 1.same selenium coding question asked for Shivangi .
+2.explain xpath siblings 
+3.rest general q? Like what type of response we get how do we parse them.
+4.mobile automation challenges? How many devices you tested.
+5.regression  testing ,how long it take for regression and how many user stories you wrote.
+6.you ever given any presentations regarding some functionality. If so how you did what tools you used.
+7.some general questions abt frameworks for UI and mobile
+

@@ -1,0 +1,44 @@
+Walmart F2F interviewQuestions
+
+By first person:
+Explain about your project and exp?
+second repeated character in a given string?
+explain about your nodjs exp?
+where do you install mocha and after installation where it will store?
+under which folder structure?
+asked about the angualrjs exp? what you did?
+Asked about the mobile testing exp?
+
+By second person:
+Explain your experience?
+How much % you did automation and manual testing?
+Difference between whitebox and blackbox testing?
+what is regression, sanity, integration,functional testing?
+Which testcases will you pick for regression, sanity, integration,functional testing?
+
+He give the scenario like vudo.com(like xfinity)
+under he give the requirement  
+Under vudo.com couple of DVD's available
+ select how many you want and 
+add to cart and 
+1.it will only available 7 day with out seeing after that it will return.
+2. If you view that DVD's 22hr it will expires and send the bill amount
+3. then you need to try for both scenarios renewal the DVD's  
+write the functional, sanity and regression testcases the explain why is goes under this category? (on board)
+
+ask to write the code for vudo.com
+need to click on the one checkbox and one textbox in the same page once you click on the textbox iframe will open then click on the one more textbox and come back to the original frame (on white board )
+
+Then asked me to write the code for if i have 20 frames then how do you get all the frames and i need to go for particular frame write code for that? (on board)
+
+I locate element with id and name he asked me to there is any other way to locate the element 
+id,name, css, x-path ....
+asked what is the difference between css and x-path which one is you prefer and why?
+
+ I have dynamic element while i am trying to locate in html i will get this values (xyzxwelcome, hjghjwelcome) which on is preferable (xpath or css) if x-path why if css why? how can you write the xpath or css?(on board)
+
+How do you initialize the browsers in selenium?
+grid setup for crossbrowser tesing? they what to do all the test in different browsers?
+
+difference between the junit and testng?
+Can we do parameterization in junit?

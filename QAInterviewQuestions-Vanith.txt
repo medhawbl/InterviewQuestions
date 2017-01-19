@@ -1,0 +1,54 @@
+1. brief on experienc
+ 
+2. have u done automation of scripts
+
+3. In TestPlan- what you do
+
+
+4. Selenium: implicit wait
+
+5. Selenium: get vs navigate
+
+6. verify vs assert
+
+7. severity vs prior
+
+6. example on high severity and low priority
+
+7. How to input text in automation
+
+8. youtube website- testcases - sanitytesting test cases
+
+
+close and quit?
+
+answers::
+close current tab -quit is closing complete browser or killing the process
+
+
+
+Selenium: / and //
+/
+1.It starts selection from the document node
+2. It Allows you to create 'absolute' path expressions
+3. e.g “/html/body/p” matches all the paragraph elements
+ //
+1. It starts selection matching anywhere in the document
+2. It Allows you to create 'relative' path expressions
+3. e.g“//p” matches all the paragraph elements
+
+ROUND2::
+1.parallel testing in different browsers -- how u did it
+2.HashMap/Hashset- usage and differences- does map take null values
+3.rest api testing-webservices using selenium - how u did it
+4.what is the selnium setup, browser versions which u worked
+5.mobile appium-- have you worked
+6.how did you handle exceptions
+7.If driver do not load or something in selenium-- how did you handle?
+8.which tool you used for integration--jenkins or?
+9.StringBuffer and StringBuilder differences
+10.how did you interact with services or DB
+11.Will you use thread.sleep() if required.
+12.Question on Desired capabilities in Selenium Webdriver
+
+

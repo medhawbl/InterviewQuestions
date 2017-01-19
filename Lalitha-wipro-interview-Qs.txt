@@ -1,0 +1,20 @@
+MobileTesting:
+How many years of experience, what modules in project you implemented mobile automation ?
+Brief how you implemented mobile automation?How you locate elements in mobile automation?
+What Android and IOS versions you used?
+Did you work on IOS automation?
+challenges and Drawbacks in automating IOS apps?
+
+Selenium WebDriver:
+what is selenium grid and selenium webdriver? where you used?
+disadvantages and challenges using webdriver?
+where you used maven and testng?
+
+DB testing:
+Have you done database testing? How you have done it?
+which scenarios you could implement?
+query on update some column value for 45th row?
+dml,dcl queries - where did you use them?
+
+how you rate yourself in java?
+

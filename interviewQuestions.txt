@@ -1,0 +1,80 @@
+
+[14:40, 12/7/2016] +1 (925) 434-7407: Tell me about your experience?
+
+2. Given the string and need to get the below output
+given string : walmart
+output : lawmtra
+
+3. What are the details you put while filing a bug?
+
+4. How do you debug?
+
+5. Tell me about your framework?
+
+6. What are the tools you used?
+
+7. What are the challenges you faced?
+
+8. How do you test rest api's.
+
+9. Write the test cases for 2nd question
+
+10. For Gmail, what kinds of testing you do?                        
+[14:40, 12/7/2016] +1 (925) 434-7407: 1. Explian about framework?
+2.reverse words in a string
+3.Expain your experience?
+4.What are the tools you used?
+5. how does your day go?
+6.where do you face challenges?
+7.what are critical bugs you find?
+8. what is your role in the team?
+9. how did you do automation in SoapUI?
+10. SQL query
+11.functionality of the current application
+12. did you participate in production deployments?
+13. Asked questions on my projects from resume
+
+
+Write a program to introduce spaces between letters in a word. Write test cases for it in testng
+
+Gave a scenario in selenium like login to a website and test if there is a table in that page.
+
+.Explain httpclient framework you used
+
+what are different locators you used
+
+difference between overloading and overriding
+
+if your developer is not convinced if it is bug what would you do
+
+Did you use Selenium grid
+
+test cases for elevator
+
+.wine glass program 
+
+sql - replace the field in a table with another 
+
+challenges you faced
+
+what is serialization in java
+
+How many test cases i wrote and give them examples of some interesting ones
+
+differences between soap and rest
+
+can GET have a body
+
+Are you more comfortable with UI or API programming
+
+Did you work on mobile testing                        
+[14:41, 12/7/2016] +1 (925) 434-7407: How will you do end to end testing.
+How will you do stress and load testing.
+What are you going to do if you find a bug.
+If your tests are failing in the load test what will you do.
+If you are a QA lead how will you sigh off the release.
+If you are not able to release on that particular time what will you do.
+if server is failing how will you proceed
+what was you last mistake and how you overcome with it
+what kind of person you are
+if you have some argument with your colleague how will you handle it

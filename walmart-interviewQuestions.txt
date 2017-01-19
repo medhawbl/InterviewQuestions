@@ -1,0 +1,43 @@
+[17:10, 12/27/2016] Kanchanaqa: First round:
+1.what is your experience overall? Tell me about your self , what is ur educational details???
+2.what is your last project??? Explain ur role in last project?
+3. He found that I have worked in jcpenny( he also worked in jcpenny in Texas) asking about which project did you work? What tools did you in jcpenny??
+4.in jcpenny , which testing f/m did u use? Its written as testing, so I mention testng.....but after I told initial time we have used junit then we moved into testng ( then he said yes before they were using junit)
+5. Asked the differences bet junit and testng??
+6.asked to write 2nd repeated character in a given string?on white board
+7. Asked to write the restapi post request using nodejs???on white board
+8.asked where did u use mongo db?                        
+[18:06, 12/27/2016] Kanchanaqa: Second round:
+1.asked about previous project again???                        
+[18:35, 12/27/2016] Kanchanaqa: 2.where did u use mongo db??
+3.what is the diff bet mondob and relational database???
+3.can you write unlimited data in mongodb??
+4.what are the advantages and disadvantages of mongodb?
+5.where did you store the data in mongodb?
+6. He has given an API like api.walmart.com/ and asked to send the get request?(asked the code to write on board)
+7.after getting the response like ordered, again we need to pass the 
+Orderid into the another get request?(asked the code to write on board)
+8.diff bet arraylist and linkedlist??
+9.if we want to add some elements, in between which one is preferable?why?
+10.if linked list is singly linked then which one is preferable?(arraylist or linkedlist)
+11.In selenium, in one page he asked to click one button, then it opens another window there we have to get the text message and again we need to go back to first page and we need to paste that text into text box????(asked to write the code on white board)
+12. Diff bet  alert popups and frames?
+13.how do you know whether it is alert or frame?
+14.dif bet hashmap and hashtable?
+15.in hashmap the values are like 
+Keys are like A B Y A D
+A----adds
+B----asset
+Y----fetch
+D----fghju
+E----null
+Asked can I write null value?
+I replied there is no E key , so you cannot.
+
+
+14.                        
+[18:36, 12/27/2016] Kanchanaqa: Third round: with hiring manager
+1. Define object?                        
+[18:40, 12/27/2016] Kanchanaqa: 2.while in exceptional handling , where did you get the Illegalstate exception? How do you handle it???
+3.asked about how do install npm, asked about nodes and variables in nodejs?
+4. Dif bet webserver and application server?

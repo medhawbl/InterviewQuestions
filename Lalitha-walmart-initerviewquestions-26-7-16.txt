@@ -1,0 +1,4 @@
+What is selenium grid setup?
+did you do grid setup using jenkins?
+how u rate yourself in java, webdriver
+write a program to find count of duplicate numbers in array and print them?

@@ -1,0 +1,143 @@
+what is diff b/n abstract class and interface
+
+what is encapsulation and abstraction
+
+what is polymorphism
+
+over loading and overrding differneces
+
+what is inheritance
+
+
+class level/instance variables are part of heap
+method local vars are part of stack and method execeution is done in stack memory
+objects are created in heap memoery
+both heap and stack are part of system Ram which jvm uses for program executions.
+
+public protected default private
+less restrictive ---> more restrictive
+
+Does java support multiple inheritance or multi level inheritance?
+
+A
+B extends A
+C extends B
+
+why string is immutable in java
+
+how do u make any class immutable - mainly final keyword
+
+what is static- staic means class level- we need not create object to access static fields or methods
+
+
+what is final- cannot change the value
+class final- u cannot extend it
+method final- u cannot override
+variable is final - u cannot reassign any value
+
+final Encapsulation enc = new Encapsulation();
+		enc.setId(1);
+		enc.setName("george");
+		
+above codeobject is not final - refernce var is final- we can still change object data
+
+id java pass by value or pass by refernce
+object- copy of refernce is sent with both references pointing to same object
+primtive- actual values are sent - so changes are not reflected.
+
+what is diff b/n string, stringbuffer and string builder
+eg- when we try to modify existing string a lot in program - we use StringBuffer or builder
+always prefer builder if its not multithreaded environment as its faster
+
+file reading- one good example
+
+
+differnece b/n == and equals method for STring
+== compares refrences or memory locations
+equals compares actual values
+
+what are kinds of exceptions- how to handle it
+checked- filenotfound,io, sqlexception
+unchecked- null pointer,arrayoutof 
+
+super class of all exceptions- Throwable- Exception
+
+what is diff b/n final, finally and finalize
+
+
+what is try/catch/final used for
+
+casting:
+
+Primitive data types casting:
+byte , short , int , long , float, double
+
+
+leftright upcasting or implicit casting
+right->left   downcasting or explicit casting
+
+what is typecasting - explicit and implict cast-- int--float, float to int
+
+what is method to convert string to intger and integer to string
+
+
+what is autoboxing
+
+what diff collections are present in java
+
+what is diff b/n list, set , map
+
+what is diff b/n arraylist,vector and linkedlist
+arrayList is faster for iterationll is fatser for insertion and deletion
+
+what is diff b/n hashmap,hashtable, treemap and linkedhashmap
+
+what is importance of hashcode and equals w.r.to hash collections.
+
+what is diff b/n  hashset, linkedhashset
+
+
+List<String> list = new ArrayList<String>();
+joe, beena, pal
+
+beena , joe, pal
+
+Collections.sort(list);
+
+
+List<Employee> list = new ArrayList<Employee>();
+joe, beena, pal
+
+beena , joe, pal
+
+
+Comparable or comapartor - both to define user defined sorting
+
+
+Employee implements Comparable(){
+
+public int compareTO(Employee o1,Employee o2){
+return (e1.name).compareTo(e2.name);
+
+}
+
+}
+
+EmployeeComparator implements Comparator<Employee>(){
+
+public int compareTO(Employee o1,Employee o2){
+return (e1.name).compareTo(e2.name);
+
+}
+
+}
+
+
+Collections.sort(list, new  EmployeeComparator());
+
+
+
+
+
+
+

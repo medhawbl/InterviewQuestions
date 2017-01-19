@@ -1,0 +1,31 @@
+https://ftp.mozilla.org/pub/firefox/releases
+xcode on windows:need virtual box
+https://www.youtube.com/watch?v=sb8BdYH4esQ
+
+ipa file foe ios app using xcode6:
+https://www.youtube.com/watch?v=1IULUVV2MV8
+
+apk file with android studio:
+https://www.youtube.com/watch?v=cfxwXz6Xlag
+
+IOS &  appium:
+https://www.youtube.com/watch?v=meU4TzI3KNM
+
+Selenium jenkins:
+
+https://www.youtube.com/watch?v=1e8I3A49ERc
+
+Selenium paralleltesting/grid:
+
+https://www.youtube.com/watch?v=m9fydeEXDXc
+
+Selenium PageObject And PageFactory:
+
+https://www.youtube.com/watch?v=fUSl-WhqymU 
+
+Appium In depth:
+
+http://appium.io/slate/en/master/?java#writing-tests-for-appium
+
+http://appium.io/slate/en/master/?java#automating-mobile-gestures
+http://appium.io/slate/en/master/?java#touchaction

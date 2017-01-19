@@ -1,0 +1,47 @@
+Interview Questions HP-
+
+What is the selenium version you are using?
+
+How do you do grid set up in Selenium?
+
+How do you configure slave master in Jenkins and set it up with selenium grid?
+
+There is a table with employees,salary,department,id.
+Find the max salary from the table in selenium.
+
+Find the smallest number from a given array int[] arr ={-2,5,6,7,8}
+
+What are the different locators in Selenium?
+
+Add two elements in a method  in a class and how would you call it in another class.
+
+What is a static in Java?
+
+
+
+
+Interview Questions Walmart-
+
+1)Reverse the string such that:
+WALMART = "LAWMTRA";
+
+
+2)In an ecommerce website,there is a page called general headers. In it there is a navigational bar and on it are various links are in a drop down..Use hover
+on the elements and go from link to sublink. Use page object model.
+
+3)What is backward compatibilty on API testing? What are the best practices for backward compatibilty?
+Will it work in the following scenarios?
+a)Parameters are optional.
+b)Parameters are mandatory.
+b)Converting string to an int.
+
+4)There is a SQL table like the one in this link-
+
+http://www.programmerinterview.com/index.php/database-sql/practice-interview-question-1-continued/
+
+Find the names of the salesperson from the tables considering their id are unique.
+
+5)You are given an integer array containing positive numbers and one number is missing. 
+You need to provide optimum solution to find the missing number based on O(n).Sort the array.
+
+
