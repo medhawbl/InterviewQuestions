@@ -1,0 +1,29 @@
+WALMART Interview Questions:
+1st round
+1)Tell me about your project. What application you were working on? 
+Explain about your application.
+
+2)How did you do parallel testing? Did you use grid set up or was it cloud based like  Saucelabs?
+
+3)What issues did you face when you upgraded your version of selenium jar? Did it work smoothly with the upgrade?
+
+4)What happens when say, you have an upgraded version of selenium but an older version of testng which are not compatible.What is done to overcome such situation?
+
+5)Scenario based question: Suppose in a walmart search option,you search for a product..now it lists all the products based on your search. Some searched product may be out
+of stock and those not,you must be able to add to the cart. How do you do testing in this case?
+
+Also,based on the above scenario,if you have to select the second index position,what will be your code and it  could be that the element is not present at the desired location,
+it can be anywhere in the page or hidden. How do you deal with such situation?
+
+6)What happens when you go to search,type some product name and select,but nothing happens...what are the test cases that you can come up with?
+
+
+
+2nd Round:
+1)Tell me about your education,your experience and your skill set?
+
+2)Java coding question-find the second most repeated character in a string.
+
+3)Appium code to click on a native app,create an account in the app. Write detailed code on whiteboard. What will you do in case of IOS and Android? Also explain your code.
+
+4)Explain how appium works.

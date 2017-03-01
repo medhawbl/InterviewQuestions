@@ -1,0 +1,12 @@
+Explain your recent projects--what you did there? scenarios fom recent 2 projects
+What challenges and defects in recent projects?
+Do u have experience writing testPlan and TestCases
+What are present in a TestPlan document
+What all you enter when you raise defect
+Explain your automation fw
+What is appium and how to setup from scratch
+What is challenge in mobile testing
+Do u have exp testing gaming console and tv...
+How u debug mobile app issues
+Why we have mobile app even though we can open web app in mobile..whats use of mobile app
+Given an application which has no automation setup -  how do you automate and what things you automate
