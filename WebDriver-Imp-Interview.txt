@@ -1,0 +1,63 @@
+What are advantages and disadvantages of WebDriver?
+
+Explain Automation Fw- PageObject,dataDriven,UIMapping?
+
+What are frequently faced exceptions, name them ...How you handle those exceptions
+
+What happens if you dont have try catch, do you have try catch for every test case?
+
+Difference between findElement and findElements?
+
+diff b/n close and quit
+
+Different waits in webdriver, differences
+
+How do you handle multiple windows in WebDriver
+
+How do you handle Alerts and iframes in WebDriver
+
+How do you handle  window pop ups in WebDriver
+
+how to handle dropdowns, select some elemnt in dropdown 
+
+how to  get all option values in dropdown
+
+How you handle mouse actions
+
+what is CrossBrowsertesting, explain grid setup
+
+How do you run grid in your project
+
+How do you run regression - through jenkins?
+
+How do you generate logs and reports
+
+how do you handle dynamic data required for test
+
+what are different Java patterns used in framework and where?
+
+diff between close and quit
+
+diff b/n xpath and css selectors
+
+which locator is most preferred and why
+
+what are some challenges you faced in automation
+
+If there is any production issue, how do you handle?
+
+Write code to read excel for data driven testing using TestNG
+
+How do you sort the serahc results or find max from results
+
+How many regression test cases you run and how long it takes, how frequently you run
+
+some webelement methods- isSelected,isEnabled, getAttribute ,getText
+
+
+
+
+
+
+
+
