@@ -1,0 +1,30 @@
+Interview questions -Nike-
+Can you give me an overview of your technical experience?
+
+What language did you get the responses from http client? 
+
+Why did you guys choose java as opposed to groovy? 
+
+you said you have java scrip experience with Java script frameworks -comment he made- 
+
+how do you go about testing on node?
+
+You said you have used selenium? What browser did you test on? 
+
+Do you have experience using selenium grid? 
+
+how do you handle load in Jmeter? i don’t know what kind of environment you have experience with but have you tested with heavy loads? 
+
+You manually called the loads?  
+
+You have written code in java and java script? How do you scale yourself in this languages?  
+
+Do you have any questions for me? 
+
+we have java, jenkins, python, java script-
+
+as far as back end, have you used any code coverage?
+
+Do you have experience in selenium grid? 
+
+Do you have any experience using AWS or any cloud platform?

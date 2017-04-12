@@ -1,0 +1,31 @@
+Q. how u define severity n priority -
+a) login page is working but next page is not coming up
+b) logo  is not displying
+
+Q. if u have team with 5 people  and 2 are not available and release is next 2days..how u will handle the situation
+Q. if u r scrum master how will u deal with devlopers on any issue?
+Q. Unix command to check running processes
+Q. copy the content of two file in third file - unix command ?
+
+
+Q. write a class for singlonton design pattern
+Q. find max number from array of integers
+Q. what is the use of synchronization ..how u use it
+Q. abstracct classes  
+Q. encapulation ?
+
+Q.how to test restapis..post method 
+Q. how to authenticate rest api
+Q. write sample cucumber feature file 
+Q. what the critical issues u faced in prevoious projects
+
+                        
+/* Return the number of times that the string "code" appears anywhere in the given string.
+* except we will accept any letter for the 'd' , so "cope" and "cote" count.
+* countcode("codexxxcozeyyycopekkkcode") - 4
+*/
+
+Q. How you used jekins
+Q. Have u used any dependecy tool in framework
+Q. how u used testNg
+Q. How much u will rate urself in java coding and debugging?

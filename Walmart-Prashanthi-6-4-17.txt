@@ -1,0 +1,31 @@
+﻿Can you explain about your role in your recent project?
+What team did you work for in your recent project?
+How much experience you have in nightwatch .js?
+What is the difference between (Assert and Verify)or SoftAssert and HardAssert?
+What is the difference between Xpath and CSS selectors?
+Any questions for em?
+
+
+Write code for the following on collabedit and share the screen at the same time.
+/ Scenario 1 -
+// Load item page
+// https://www.walmart.com/ip/Ajax-Bleach-Alternative-Lime-Dish-Liquid-52-fl-oz/20971293
+// Click add to cart button
+// Make sure "Free 2-Day Shipping on orders $35+ is showing"
+// Make sure "2-Day Shipping" is showing
+
+
+
+
+Scenario 2 -
+
+
+// https://www.walmart.com/ip/Ajax-Bleach-Alternative-Lime-Dish-Liquid-52-fl-oz/20971293
+// https://www.walmart.com/ip/Dixie-Everyday-Paper-Plates-144-count/51341736
+
+
+
+// Add the following two items to cart
+
+
+// Write a generic function that takes in the product name and asserts the correct name is showing for both the items
