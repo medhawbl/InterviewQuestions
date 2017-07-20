@@ -1,0 +1,42 @@
+round 1. 
+
+
+1. explain about yourself and recent project
+2. reason for your job change
+3. difference between junit and testng in specific
+4. can we do parameterization in junit 4. if yes, write parameterization using testng and junit in white board
+5. there is a website vudo.com. there are two options buy and rent dvd in vudo. if you rent it, it should be available for 30 days. once you start watching it, it will be expire in 24hrs. 
+write regression, sanity , functional testcases for this scenario (on white board)
+6. he gave a sample response, and told to assert for that contents he given in rest api. (on white board)
+7. write how to get content from json array , (from  the the prevoiusly given response). using both rest assured and http client
+8. how the atomation flow in your recent project
+9. asked about the internal flow of webservice testing of the application, which mentioned in recent project
+
+round2:
+
+1. explain about your skillset and your recent project
+2. suppose there is two suite files, one for regression testing and for sanity testcases, we have to configure the main application such a way that, when that suite run, these two suitefiles should be get called
+3. java program to convert from "cabbage" ----> egabcab
+4. given array of releases, { 1.0.1, 0.8.9 , 4.2.3 ,...} sort it into ascending order. (don't consider these as integer also don't use inbuilt methods)
+5. there is four classes  C1,C2,C3,C4. i need to include first 3 tests and exclude 4th. how can i configure testng
+6. write a method and show dependency scenario using testng ( on board) 
+7. she wrote two test methods A and B. she added dependency for the second method. if first one fails what happens to second and viceversa
+8. one more program wa there. I forgot .....
+
+
+round 3
+
+1. explain about yourself
+2. explain about your framework . when i told him structure was there. so he told to build a framework for a given scenario. 
+3. write a program to find 2nd repeated charachetr in the strring. But that logic should work for searching nth character too. 
+4. he draw few pages, he want me to put all the common methods to  page. and when page is loading , this page should automatically load. 
+5. asked about the node.js framework i involved. and write a rest api post using node.js
+
+
+
+
+ 
+
+
+
+

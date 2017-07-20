@@ -1,0 +1,46 @@
+Silpa vixoo questions
+round 1:
+1.Explain abt your software experience as a tester?
+2.Have you worked with api having large payloads?
+3.When do you automate test scrips?
+4.Can you override a static method?
+5.Can you overload a static method?
+6.What control system used in your project?
+7.How to set up git?
+8.what format you used in api?
+9.have you ever designed a framework from scratch?
+10.have you done database automation?
+JDBC 
+11.How to handle scenario when there is muscommunication with team?
+12.Did parameters of API change in middle of sprint?
+1.Explain abt your software experience as a tester?
+2.Have you worked with api having large payloads?
+3.When do you automate test scrips?
+4.Can you override a static method?
+5.Can you overload a static method?
+6.What control system used in your project?
+7.How to set up git?
+8.what format you used in api?
+9.have you ever designed a framework from scratch?
+10.have you done database automation?
+11.How to handle scenario when there is muscommunication with team?
+12.Did parameters of API change in middle of sprint?
+
+f2f:
+1.Whats soundex in sql?
+2.Tell one important clause in sql
+3.how do you rate your sql experience
+4.How do you rate your webdriver experience?
+5.How to handle frames?
+6.How to run same tests in multiple environments at the same time?
+7.How to handle invisible/hidden elements?
+8.What are the challenges with internet explorer?
+9.What you do before raising a bug?Whats the recent bug that you raised?
+10.What if the developer comes back saying its not a bug
+11.What will you do if you dont understand the user stories.who will you approach first?
+12.Explain abt your s/w experience as a tester
+13.Give 3 points to consider if you want to open a company in future
+14.Whos your motivation to become a tester and why?
+15.When did you automate scripts in the sprint?
+16.In what situations will you approach a BA?
+17.How to setup jenkins?

@@ -1,0 +1,126 @@
+package com.wbl.RestApi;
+
+import static io.restassured.RestAssured.given;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+import io.restassured.response.Response;
+
+public class LifeLockTask {
+
+	public void compareGeneratedData(File generatedFilePath, List<String> dataSetIds) throws IOException {
+		HashMap<String, List<String>> map = new HashMap<String, List<String>>();
+		
+		Response responseThen = given().when().get("https://lifelock.apis.com/dataset");
+
+		for (int i = 0; i < dataSetIds.size(); i++) {
+			if (dataSetIds.get(i).equals(responseThen.path("["+i+"].dataSetId"))) {
+				
+				List<Response> datasetinstanceelements = responseThen.path("["+i+"].datasetinstanceelements");
+				List<String> ids_uris = new ArrayList<String>();
+				
+				for (int j = 0; j < datasetinstanceelements.size(); j++) {
+					
+					String datasetinstanceelementid =(String) datasetinstanceelements.get(j).path("["+ j+ "].id");
+					String uri =(String) datasetinstanceelements.get(j).path("[" + j + "].uri");
+					
+					ids_uris.add(datasetinstanceelementid+","+uri);
+				}
+				map.put(dataSetIds.get(i), ids_uris);
+			}
+		}
+		//{8, {"11,uri1","12,uri1","13,uri1","14,uri1"}}
+
+		//{9, {"11,uri1","12,uri1","12,uri1","14,uri1"}}
+		FileWriter writer = new FileWriter(generatedFilePath);
+		for (String datasetid : map.keySet()) {
+			for (String id_uri : map.get(datasetid)) {
+				
+				String[] str =id_uri.split(",");
+				
+				boolean result = filesCompare(getGeneratedData(str[1]), getMasterPath(str[1]));
+				
+				writer.write("DataSetId:" + datasetid + ", DataSetInstanceElementId :" + str[0]+ " , matchStatus:" + result);
+			}
+		}
+		writer.close();
+	}
+
+	public boolean filesCompare(String generatedfilepath, String masterfilepath) {
+		boolean result = false;
+		
+		BufferedReader reader1 = null;
+		BufferedReader reader2 = null;
+		try {
+			reader1 = new BufferedReader(new FileReader(generatedfilepath));
+
+			reader2 = new BufferedReader(new FileReader(masterfilepath));
+
+			String line1 = reader1.readLine();
+
+			String line2 = reader2.readLine();
+
+			boolean areEqual = true;
+
+			int lineNum = 1;
+
+			while (line1 != null || line2 != null) {
+				if (line1 == null || line2 == null) {
+					areEqual = false;
+
+					break;
+				} else if (!line1.equalsIgnoreCase(line2)) {
+					areEqual = false;
+
+					break;
+				}
+
+				line1 = reader1.readLine();
+
+				line2 = reader2.readLine();
+
+				lineNum++;
+			}
+
+			if (areEqual) {
+				System.out.println("Two files have same content.");
+				result = true;
+			} else {
+				System.out.println("Two files have different content. They differ at line " + lineNum);
+
+				System.out.println("File1 has " + line1 + " and File2 has " + line2 + " at line " + lineNum);
+			}
+		} catch (Exception e) {
+			System.out.println(e.getStackTrace());
+		} finally {
+			try {
+				reader1.close();
+				reader2.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+
+		}
+		return result;
+	}
+
+	public String getMasterPath(String generatedPath) {
+		return "s3://master/path1/path2/data1";
+	}
+
+	public String getGeneratedData(String generatedPath) {
+		return "s3://generated/path1/path2/data1";
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}
