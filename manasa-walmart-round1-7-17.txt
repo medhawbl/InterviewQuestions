@@ -1,0 +1,36 @@
+1. Where do you use fail-safe and fail-fast exceptions
+2. Explain static. Can you change the value of static variable? Explain static initializers
+3. What is a deamon thread?
+Hint: Garbage collection
+4. You are using a 3rd party library in a project and its throwing NoSuchMethodException or NoClassException.
+How do you approach? 
+5. If you remove unused import in a class, will it throw any exception?
+6. What is the diff btwn creating a string
+    String s = "walmart"
+    String s1 = new String("walmart")
+    what do u prefer
+7. Explain Garbage Collection
+
+8. Which protocol does WebServices uses?
+    - what are the methods it uses
+    - diff btwn PUT, POST
+    - can we use POSt for data retrieval?
+    - limitations for POST?
+    - can u use POST instead of GET? why?
+    - is RESTful webservices stateless or stateful? explain why
+    - is SOAP webservice a stateless or stateful? explain why
+    
+9. SQLs
+    - Diff btwn TRUNCATE and DELETE
+    - How many joins are there?
+    - What is a SELF join?
+    
+10. Explain Data Providers in TestNG
+11. If you are using many asserts in a test-method, one of the assert fails, 
+the rest of the asserts will be skipped automatically. How do you overcome
+Hint: SoftAssert.
+
+12. Write a program and the possible testcases for the following:
+    To find out the top 2 occurred chars in below sentence.
+    INPUT String: "I AM AT WALMART"
+    OUTPUT String: A-4, T-2, M-2
