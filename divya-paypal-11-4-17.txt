@@ -10,6 +10,23 @@ Q. copy the content of two file in third file - unix command ?
 
 Q. write a class for singlonton design pattern
 Q. find max number from array of integers
+package own;
+
+public class MaxNumberFromArray {
+
+	public static void main(String[] args) {
+		int [] arr= {1,2,3,23,123};
+		int max=0;
+		
+	for (int i= 0; i<arr.length; i++) {
+		if (arr[i]>max) {
+			max=arr[i];
+		}
+	}
+	System.out.println(max);
+	}
+}
+
 Q. what is the use of synchronization ..how u use it
 Q. abstracct classes  
 Q. encapulation ?
